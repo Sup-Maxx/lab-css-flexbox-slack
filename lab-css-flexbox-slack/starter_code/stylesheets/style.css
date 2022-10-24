@@ -1,0 +1,312 @@
+/*
+background purple: #540B51
+background ivory: #F3EAE2
+button blue: #4285F4
+titles black: #191817
+paragraph black: #000000
+paragraph yellow: #ECB12F
+links blue: #2E71A6
+footer links grey: #454245
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.yellowBackground {
+  background-color: #f3eae2;
+}
+
+#slackLogoTop {
+  max-width: 15%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: #540b51;
+  padding: 25px;
+  max-width: 100%;
+}
+
+.dropdown {
+  display: none;
+}
+
+.searchMenuButton {
+  background-color: inherit;
+  border-color: transparent;
+  margin-left: 10px;
+}
+
+.headerText h1 {
+  text-align: center;
+  color: white;
+
+  margin-bottom: 25px;
+  padding-top: 10px;
+}
+
+.headerText #subtitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button-email {
+  color: #540b52;
+  font-size: 0.875em;
+  letter-spacing: 1px;
+
+  width: 80%;
+  max-width: 380px;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.button-google {
+  color: white;
+  font-size: 0.875em;
+  letter-spacing: 1px;
+
+  width: 80%;
+  max-width: 380px;
+  padding: 10px 0;
+  background-color: #4285f4;
+  border-radius: 10px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.button-google img {
+  width: 30px;
+  background-color: white;
+}
+
+#trustedCompanies {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 25px;
+  margin: 20px;
+}
+
+.logoCompanyTop-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-right: 30px;
+  margin-bottom: 25px;
+}
+
+.logoCompanyTop {
+  max-height: 40px;
+  width: auto;
+}
+
+.bigPhoto {
+  max-width: 100%;
+} 
+
+h2 {
+  font-size: 2em;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+
+.text {
+  margin: 5px 17px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #2e71a6;
+  font-size: 1.2em;
+  margin-left: 19px;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: center;
+  margin: 15px;
+}
+
+.percentage p {
+  text-align: center;
+  font-size: 1em;
+  margin: 0 40px;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #540b52;
+}
+
+#freeSlack {
+  color: orange;
+  font-size: 1.1em;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#purpleBack {
+  background-color: #540b52;
+  color: white;
+
+  margin: 0 10px;
+  padding: 15%;
+  border-bottom-left-radius: 270px;
+  border-bottom-right-radius: 270px;
+}
+/*
+.button-email {
+  color: #540b52;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+
+  width: 65%;
+  max-width: 380px;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+*/
+
+.purpleButton {
+  color: white;
+  background-color: #540b52;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 1px;
+
+  width: 65%;
+  max-width: 380px;
+  margin-top: 10px;
+  padding: 10px 0;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whiteButton {
+  color: #540b52;
+  background-color: white;
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: 1px;
+
+  width: 65%;
+  max-width: 380px;
+
+  padding: 10px 0;
+  margin-top: 5px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #540b52;
+}
+
+#logo2 {
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 20px 20px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.preFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  color: #454245;
+  font-size: 0.8em;
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+
+  font-size: 0.8em;
+}
+
+#download {
+  color: blue;
+  text-decoration: underline;
+}
+
+.footerImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*
+1. <768px
+2. 768-1024px
+3. 1024-1440px
+4. >1440px
+*/
+
+
